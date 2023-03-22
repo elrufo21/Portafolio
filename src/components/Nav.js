@@ -9,7 +9,7 @@ const Nav = () => {
         <div className="w-full bg-black/20 h-[96px] backdrop-blur-2x1 
         rounded-full max-w-[460px] m-auto flex justify-between text-2x1
         text-white/50">
-          <Link to='home' activeClass="active"
+          <Link to='home' activeClass="active" offset={-200}
           smooth={true} spy={true} className="cursor-pointer w-[60px] flex items-center 
           justify-center items-center text-2x1">
             <BiHomeAlt />
@@ -24,12 +24,12 @@ const Nav = () => {
           justify-center items-center text-2x1">
             <BsClipboardData />
           </Link>
-          <Link to='contact' activeClass="active"
+          <Link to='work' activeClass="active"
           smooth={true} spy={true} className="cursor-pointer w-[60px] flex items-center 
           justify-center items-center text-2x1">
             <BsBriefcase />
           </Link>
-          <Link to='work' activeClass="active"
+          <Link to='contact' activeClass="active"
           smooth={true} spy={true} className="cursor-pointer w-[60px] flex items-center 
           justify-center items-center text-2x1">
             <BsChatSquareText />
