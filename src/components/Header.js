@@ -7,7 +7,7 @@ const Header = () => {
     window.open(url, '_blank');
   }
   return (
-    <header className="bg-pink-300 py-8">
+    <header className="py-8">
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
             <div><h2 className='h2 text-accent'>Ruben <span>Vasquez</span></h2></div>
