@@ -42,9 +42,7 @@ const Banner = () => {
             </motion.div>
             <motion.p className='mb-8 max-w-ñg lg:mx-0'
               variants={fadeIn('up', 0.4)} initial="hidden"
-              whileInView={"show"} viewport={{ once: false, amount: 0.7 }}>Velit tempor irure eu consectetur fugiat sit
-              nulla adipisicing nostrud adipisicing nostrud
-              occaecat consequat aliqua. Lorem quis
+              whileInView={"show"} viewport={{ once: false, amount: 0.7 }}>La ciencia y la tecnología revolucionan nuestras vidas, pero la memoria, la tradición y el mito moldean nuestra respuesta a la tecnología
             </motion.p>
             <motion.div className='flex max-w-max gap-x-6 items-center mb-12
             mx-auto lg:mx-0'
